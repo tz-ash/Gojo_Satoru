@@ -44,7 +44,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "url",
                 ),
                 (
-                    "Support 👥",
+                    "🍷 Just Support 🍷",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
@@ -60,24 +60,24 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "🧿 Who Is Kid 🧿",
+                    "https://t.me/kidhub",
                     "url",
                 ),
                 (
-                    "Owner ❤️",
+                    "🫧 Kid 🫧",
                     Config.OWNER_ID,
                     "user_id",
                 ),
             ],
             [
                 (
-                    "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "🦋 Art Loop 🦋",
+                    "https://t.me/art_loop",
                     "url",
                 ),
                 (
-                    "Powered by",
+                    "🍄 Nothing 🍄",
                     f"https://{Config.SUPPORT_CHANNEL}.t.me",
                     "url",
                 ),
@@ -272,7 +272,7 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         else:
             mes = m
         help_msg = f"""
-Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Gojo✨.
+Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Jaan🧚‍♂️.
 I'm here to help you manage your groups!
 Commands available:
 × /start: Start the bot
