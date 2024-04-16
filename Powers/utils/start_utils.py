@@ -39,19 +39,19 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "➕ Add me to a chat!",
+                    "➕ Add me!",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
                 (
-                    "🍷 Just Support 🍷",
+                    "🍷Just Support🍷",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
             ],
             [
                 (
-                    "📚 Commands & Help", "commands"
+                    "🕊️Commands🕊️", "commands"
                 ),
                 (
                     "👾 Bot info",
@@ -60,24 +60,24 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "🧿 Who Is Kid 🧿",
+                    "🧿Who Is Kid🧿",
                     "https://t.me/kidhub",
                     "url",
                 ),
                 (
-                    "🫧 Kid 🫧",
+                    "🫧Kid🫧",
                     Config.OWNER_ID,
                     "user_id",
                 ),
             ],
             [
                 (
-                    "🦋 Art Loop 🦋",
+                    "🦋Art Loop🦋",
                     "https://t.me/art_loop",
                     "url",
                 ),
                 (
-                    "🍄 Nothing 🍄",
+                    "🍄Nothing🍄",
                     f"https://{Config.SUPPORT_CHANNEL}.t.me",
                     "url",
                 ),
