@@ -39,45 +39,45 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "➕ Add me!",
+                    "➕ ᴀᴅᴅ ᴍᴇ!",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
                 (
-                    "🍷Just Support🍷",
+                    "ᴀɴʏ ꜱᴜᴩᴩᴏʀᴛ",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
             ],
             [
                 (
-                    "🕊️Commands🕊️", "commands"
+                    "ᴊᴜꜱᴛ ᴛᴀᴩ", "commands"
                 ),
                 (
-                    "👾 Bot info",
+                    "ᴊᴀᴀɴ ɪɴꜰᴏ",
                     "bot_curr_info"
                 )
             ],
             [
                 (
-                    "🧿Who Is Kid🧿",
+                    "ᴋɪᴅ ᴏꜰ ᴊᴀᴀɴ",
                     "https://t.me/kidhub",
                     "url",
                 ),
                 (
-                    "🫧Kid🫧",
+                    "ᴏᴡɴᴇʀ",
                     Config.OWNER_ID,
                     "user_id",
                 ),
             ],
             [
                 (
-                    "🦋Lyci Babe🦋",
+                    "ʙᴀʙᴇ",
                     "https://t.me/Lycirobot",
                     "url",
                 ),
                 (
-                    "🍄Nothing🍄",
+                    "ɴᴏᴛʜɪɴɢ",
                     f"https://{Config.SUPPORT_CHANNEL}.t.me",
                     "url",
                 ),
