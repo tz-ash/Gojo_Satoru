@@ -72,8 +72,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "🦋Art Loop🦋",
-                    "https://t.me/art_loop",
+                    "🦋Lyci Babe🦋",
+                    "https://t.me/Lycirobot",
                     "url",
                 ),
                 (
