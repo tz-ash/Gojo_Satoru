@@ -107,11 +107,11 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am Jaan ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+ʜᴇʏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})! ɪ ᴀᴍ ᴊᴀᴀɴ 🤍.
+ɪᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴩ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴩ(s)!
+ʜɪᴛ ᴊᴀᴀɴ ᴛᴏ ꜰɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ꜰᴜʟʟʏ!
 
-Join my [News Channel](https://t.me/art_loop) to get information on all the latest updates."""
+ᴊᴏɪɴ ᴍʏ [ᴊᴀᴀɴ ᴜᴩᴅᴀᴛᴇꜱ](https://t.me/art_loop) ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴊᴀᴀɴꜱ ᴜᴩᴅᴀᴛᴇꜱ."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -146,11 +146,12 @@ Join my [News Channel](https://t.me/art_loop) to get information on all the late
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am Jaan ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+ʜᴇʏ [{q.from_user.first_name}](http://t.me/{q.from_user.username})! ɪ ᴀᴍ ᴊᴀᴀɴ 🤍.
+ɪᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴩ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴩ(s)!
+ʜɪᴛ ᴊᴀᴀɴ ᴛᴏ ꜰɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ꜰᴜʟʟʏ!
 
-Join my [News Channel](http://t.me/art_loop) to get information on all the latest updates."""
+ᴊᴏɪɴ ᴍʏ [ᴊᴀᴀɴ ᴜᴩᴅᴀᴛᴇꜱ](https://t.me/art_loop) ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴊᴀᴀɴꜱ ᴜᴩᴅᴀᴛᴇꜱ."""
+
 
         await q.edit_message_caption(
             caption=cpt,
